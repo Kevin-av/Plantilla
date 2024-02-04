@@ -1,12 +1,8 @@
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Stack, useRouter, useSearchParams } from "expo-router";
-import { Button, H6 } from "tamagui";
+import { Button } from "tamagui";
 
-import DialogDemo from "../../components/DialogDemo";
 import { MyStack } from "../../components/MyStack";
-import SelectDemo from "../../components/SelectDemo";
-import SpinnerDemo from "../../components/SpinnerDemo";
-import SwitchDemo from "../../components/SwitchDemo";
 import ContainerComponent from "../../components/ContainerComponent";
 
 export default function User() {
@@ -33,8 +29,6 @@ export default function User() {
       />
 
       <MyStack justifyContent="center">
-        <ContainerComponent/>
-        <ContainerComponent/>
         <ContainerComponent/>
       </MyStack>
     </MyStack>

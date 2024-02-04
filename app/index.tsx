@@ -14,32 +14,17 @@ export default function Home() {
         <YStack space="$4" maxWidth={600}>
         <Image 
             source={require('../assets/icon.png')}
-            style={{ top: 100,
-                     width: 200, 
-                     height: 200, 
+            style={{ top: 300,
+                     width: 300, 
+                     height: 100, 
                      alignSelf: 'center' }}
         />
-
-          <H1 textAlign="center"
-              style= {{position: "relative",
-                       top: 150,
-                       width: 300,
-                       alignSelf: "center",
-                       fontSize: 50,
-                       fontFamily: "Roboto"}}>Movie Making</H1>
-
-          <Paragraph textAlign="center"
-                     style= {{position: "relative",
-                              top: 150,
-                              width: 300,
-                              alignSelf: "center",
-                              fontSize: 16,}}>Maze Runner</Paragraph>
         </YStack>
 
         <YStack space="$2.5">
           <Button onPress={() => router.push("/users/testuser")}
                   style={{position: "relative",
-                          top: -200,
+                          top: -300,
                           width: 200,
                           alignSelf: "center"}}>
             Comienza
